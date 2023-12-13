@@ -1,5 +1,5 @@
 [[redirects]]
   force = true
   from = "/*"
-  status = 200
+  status = 301
   to = "https://guesswhobutdogs.com"
