@@ -1,4 +1,4 @@
 [build]
   base = ""
-  publish = "dist/srg-guesswho"
-  command = "ng build --configuration production"
+  publish = "dist"
+  command = "ng build"
