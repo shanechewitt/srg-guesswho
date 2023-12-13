@@ -1,0 +1,17 @@
+<div class="game-page-wrapper"> 
+    <div class="game-page-top-bar">
+        <div class="left-score">Shane 10</div>
+        <div class="turn-indicator"> SRG - Guess Who MVP</div>
+        <div class="right-score">Skylar 3</div>
+    </div>
+    <div class="game-page-faces">
+        <div *ngFor="let face of faces; let i = index" class="face-container" (click)="determineBlurFace(i)">
+            <img class="face" [src]="'../../assets/SRG-images/' + filenames[i]" alt="{{ filenames[i] }}">
+            <div>{{i}}</div>
+        </div>
+    </div>
+    <div class="game-page-action-bar">
+        <div class="action-button" (click)="resetFaceBlurs()">Reset faces</div>
+        <!-- <div class="action-button" (click)="flipTurn()">Flip turn</div> -->
+    </div>
+</div>

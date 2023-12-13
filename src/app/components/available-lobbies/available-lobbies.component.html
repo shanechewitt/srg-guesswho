@@ -1,0 +1,6 @@
+<div class="available-lobbies-wrapper">
+    <div class="title">Join an open lobby</div>
+    <div class="available-lobbies">
+        <div class="lobby" *ngFor="let lobby of lobbies" (click)="navigateToLobby(lobby.id)">{{ lobby.name }}</div>
+    </div>
+</div>
