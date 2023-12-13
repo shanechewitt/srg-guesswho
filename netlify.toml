@@ -1,3 +1,3 @@
 [build]
-  publish = "dist/srg-guesswho"
+  publish = "dist/srg-guesswho/browser"
   command = "ng build"
