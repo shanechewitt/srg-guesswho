@@ -7,7 +7,7 @@
     <div class="game-page-faces">
         <div *ngFor="let face of faces; let i = index" class="face-container" (click)="determineBlurFace(i)">
             <img class="face" [src]="'../../assets/SRG-images/' + filenames[i]" alt="{{ filenames[i] }}">
-            <div>{{i}}</div>
+            <div>{{i + 1}}</div>
         </div>
     </div>
     <div class="game-page-action-bar">
