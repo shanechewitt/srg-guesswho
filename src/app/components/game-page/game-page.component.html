@@ -1,8 +1,12 @@
 <div class="game-page-wrapper"> 
     <div class="game-page-top-bar">
-        <div class="left-score">Shane 10</div>
+        <div class="left-score">Player 1: 0
+            <!-- <button (click)="playerOnePlus()">+</button><button (click)="playerOneMinus()">-</button> -->
+        </div>
         <div class="turn-indicator"> SRG - Guess Who</div>
-        <div class="right-score">Skylar 3</div>
+        <div class="right-score">Player 2: 0 
+            <!-- <button (click)="playerTwoPlus()">+</button><button (click)="playerTwoMinus()">-</button> -->
+        </div>
     </div>
     <div class="game-page-faces">
         <div *ngFor="let face of faces; let i = index" class="face-container" (click)="determineBlurFace(i)">

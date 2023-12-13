@@ -82,4 +82,8 @@ export class GameComponent implements OnInit {
             fc.innerHTML = "<img src='../../assets/SRG-images/" + this.filenames[i] + "' />"
         })
     }
+
+    playerOnePlus() {
+
+    }
 }
