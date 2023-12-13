@@ -3,3 +3,9 @@
   from = "https://srg-guesswho.com"
   status = 301
   to = "https://guesswhobutdogs.com"
+
+  [[redirects]]
+  force = true
+  from = "https://www.srg-guesswho.com"
+  status = 301
+  to = "https://guesswhobutdogs.com"
